@@ -24,6 +24,7 @@ jobs:
 
       - name: Deploy to Staging
         run: ./deploy-staging.sh
+        
 
       - name: Run Integration Tests
         run: ./run-integration-tests.sh
